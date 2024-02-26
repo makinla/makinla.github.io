@@ -1,5 +1,5 @@
 div.navBar {
-  background-color: #ca7272;
+  background-color: #774b4b;
   position: relative;
 }
 
@@ -17,7 +17,7 @@ div.navBar a.active {
   }
   
   .navBar a {
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -25,7 +25,7 @@ div.navBar a.active {
   }
   
   .navBar a.icon {
-    background: black;
+    background: rgb(0, 0, 0);
     display: block;
     position: absolute;
     right: 0;
@@ -38,7 +38,7 @@ div.navBar a.active {
   }
   
   .active {
-    color: black;
+    color: rgb(0, 0, 0);
   }
 /* tämän yläpuolelle copy pastettu*/
 a {
