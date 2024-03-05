@@ -16,23 +16,33 @@
 
     <title>Koulutustausta</title>
 </head>
-<div class="navBar">
-    <a href="koulutus.html" class="active">Koulutustausta</a>
-    <div class="myLinks" id="myLinks">
+
+<body>
+
+
+    <div class="navMobile">
+        <a href="koulutus.html" class="activeMobile">Koulutustausta</a>
+        <div class="myLinks" id="myLinks">
+            <a href="index.html">Esittely</a>
+            <a href="tyo.html">Työkokemus</a>
+            <a href="harrastus.html">Harrastukset</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="navDesktop">
         <a href="index.html">Esittely</a>
         <a href="tyo.html">Työkokemus</a>
+        <a href="koulutus.html" class="activeDesktop">Koulutustausta</a>
         <a href="harrastus.html">Harrastukset</a>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-</div>
-<div class="content">
-    <h1> Koulutustausta </h1>
 
-    <img src="mina_1.png" alt="Kuva minusta" class="mina_1">
+    <div class="content">
+        <h1> Koulutustausta </h1>
 
-    <body>
+        <img src="mina_1.png" alt="Kuva minusta" class="mina_1">
+
         Asiaa koulutuksesta
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nibh erat. In sit amet posuere neque, in
             semper
@@ -44,7 +54,7 @@
             Duis
             ultricies, urna a commodo ullamcorper, dui ipsum tempor turpis, ut malesuada risus nibh id mi.
 
-        <p></p>Fusce dui nibh, hendrerit ut sem eget, ultrices egestas sem. Praesent a interdum sapien, eu tincidunt
+        </p><p>Fusce dui nibh, hendrerit ut sem eget, ultrices egestas sem. Praesent a interdum sapien, eu tincidunt
         mauris.
         Praesent finibus mollis ligula, eu sollicitudin dolor varius sit amet. Nunc id turpis elit. Vestibulum ante
         ipsum
@@ -55,12 +65,13 @@
         gravida.
         In non libero mollis, mattis turpis vel, rhoncus massa.
         </p>
-    </body>
-</div>
-<footer>
-    <p>laura.makinen@hotmail.fi<br>
-        <a href="">linkki</a>
-    </p>
-</footer>
+
+    </div>
+    <footer>
+        <p>laura.makinen@hotmail.fi<br>
+            <a href="">linkki</a>
+        </p>
+    </footer>
+</body>
 
 </html>

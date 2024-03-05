@@ -1,65 +1,9 @@
-div.navBar {
-  background-color: #4e825f;
-  position: relative;
-  width: 100%;
-}
-
-div.navBar a.active {
-  text-decoration: none;
-}
-
-/* tämän alapuolelle copy pastettu*/
-.navBar {
-  overflow: hidden;
-  position: relative;
-}
-
-.navBar #myLinks {
-  display: none;
-}
-
-.navBar a {
-  color: rgb(255, 255, 255);
-  padding: 1.5%;
-  text-decoration: none;
-  font-size: 25px;
-  display: block;
-}
-
-.navBar a.icon {
-  background: rgb(0, 0, 0);
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.navBar a.icon:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.active {
-  color: rgb(0, 0, 0);
-}
-
- @media only screen and(min-widht: 300px) 
- {div.navBar{
- background-color: #4e5282;
-
- }
-
-
-}
-
-/* tämän yläpuolelle copy pastettu*/
 a {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 540;
   font-style: normal;
   font-size: 25px;
-  color: black;
   text-decoration: none;
 }
 
@@ -68,7 +12,8 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 540;
   font-style: normal;
-  font-size: 27px
+  font-size: 27px;
+  margin-left: 250px;
 }
 
 body {
@@ -76,11 +21,12 @@ body {
   font-optical-sizing: auto;
   font-weight: 540;
   font-style: normal;
-  font-size: 18px
+  font-size: 16px;
+  
 }
 
 .mina_1 {
-  padding: 0 6px;
+  padding: 10px 6px;
   float: left;
   width: 20%;
   min-width: 200px;
@@ -88,7 +34,96 @@ body {
   border-radius: 50%;
 }
 
-/* Copy pastettu slideshow osuus */
+div.navMobile {
+  background-color: #4e825f;
+  position: relative;
+  width: 100%;
+}
+
+div.navMobile a.activeMobile {
+  text-decoration: none;
+}
+
+/* tämän alapuolelle copy pastettu*/
+.navMobile {
+  overflow: hidden;
+  position: relative;
+}
+
+.navMobile #myLinks {
+  display: none;
+}
+
+.navMobile a {
+  color: rgb(255, 255, 255);
+  padding: 1.5%;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+}
+
+.navMobile a.icon {
+  background: rgb(0, 0, 0);
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.navMobile a.icon:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.activeMobile {
+  color: rgb(0, 0, 0);
+}
+
+div.navDesktop {
+position: relative;
+background-color: #4e825f;
+width: 100%;
+text-align: right;
+padding: 10px;
+left: 0;
+top: 0;
+}
+
+div.navDesktop a {
+  color: #ddd;
+  padding: 1%;
+}
+
+.activeDesktop {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  div.navDesktop {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  div.navMobile {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  p {
+  margin-left: 250px;
+  margin-right: 200px;
+}
+}
 
 * {
   box-sizing: border-box
