@@ -43,6 +43,15 @@ div.navBar a.active {
   color: rgb(0, 0, 0);
 }
 
+ @media only screen and(min-widht: 300px) 
+ {div.navBar{
+ background-color: #4e5282;
+
+ }
+
+
+}
+
 /* tämän yläpuolelle copy pastettu*/
 a {
   font-family: "DM Sans", sans-serif;
