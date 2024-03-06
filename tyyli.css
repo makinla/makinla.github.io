@@ -27,7 +27,7 @@ body {
 }
 
 .mina_1 {
-  padding: 10px 6px;
+  padding: 6px 6px;
   float: left;
   width: 20%;
   min-width: 200px;
@@ -86,8 +86,6 @@ background-color: #4e825f;
 width: 100%;
 text-align: right;
 padding: 10px;
-left: 0;
-top: 0;
 }
 
 div.navDesktop a {
@@ -231,5 +229,3 @@ footer {
   background-color: rgb(175, 122, 165);
   color: white;
 }
-
-/* @media only screen and max-widht: lisää responsiivisuutta määrittelemällä erilaisia leveyksiä näytölle*/
