@@ -9,7 +9,7 @@ function navMenu() {
   }
  
 // alla slideshow
-  let slideIndex = 1;
+  var slideIndex = 1;
 
 // Next/previous controls
 function plusSlides(n) {
@@ -34,6 +34,6 @@ function showSlides(n) {
     dots[i].className = dots[i].className.replace(" active2", "");
   }
   slides[slideIndex-1].style.display = "block";
+  console.log(dots)
   dots[slideIndex-1].className += " active2";
-  
 }

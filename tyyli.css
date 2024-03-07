@@ -119,9 +119,6 @@ div.navDesktop a {
   margin-left: 250px;
   margin-right: 200px;
   }
-  .mina_1 {
-  
-  }
 }
 
 * {
@@ -208,8 +205,8 @@ div.navDesktop a {
   background-color: #000000;
 }
 
-.content {
-padding-bottom: 120px;
+main{
+  padding-bottom: 120px;
 }
 
 footer {
@@ -221,4 +218,10 @@ footer {
   padding: 10px;
   background-color: rgb(175, 122, 165);
   color: white;
+  font-size: 18px;
+}
+
+footer a {
+  font-size: 18px;
+  color: rgb(89, 30, 69);
 }
