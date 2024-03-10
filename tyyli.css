@@ -13,8 +13,19 @@ h1 {
   font-weight: 540;
   font-style: normal;
   font-size: 27px;
-  margin-left: 250px;
+  text-align: center;
   padding-bottom: 10px;
+}
+
+h2{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 540;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
 }
 
 body {
@@ -23,18 +34,24 @@ body {
   font-weight: 540;
   font-style: normal;
   font-size: 16px;
+  text-align: center;
   margin: 0;
   
 }
 
 .mina_1 {
-  padding: 6px 6px;
   float: left;
   width: 20%;
   min-width: 200px;
   max-width: 250px;
   border-radius: 50%;
+  margin-left: 10px;
 }
+
+.column {
+  width: 20%;
+
+} 
 
 div.navMobile {
   background-color: #4e825f;
@@ -62,6 +79,7 @@ div.navMobile a.activeMobile {
   text-decoration: none;
   font-size: 25px;
   display: block;
+  text-align: left;
 }
 
 .navMobile a.icon {
