@@ -46,12 +46,24 @@ body {
   max-width: 250px;
   border-radius: 50%;
   margin-left: 10px;
+  margin-top: 10px;
 }
 
-.column {
-  width: 20%;
-
+.main {
+  margin-left: 25%;
+  margin-right: 25%;
 } 
+
+.mainHarrastus {
+  padding-bottom: 120px;
+  text-align: left;
+}
+
+.mainEsittely {
+  margin-left: 25%;
+  margin-right: 25%;
+  
+}
 
 div.navMobile {
   background-color: #4e825f;
@@ -221,10 +233,6 @@ div.navDesktop a {
 
 .active2, .dot:hover {
   background-color: #000000;
-}
-
-main{
-  padding-bottom: 120px;
 }
 
 footer {
