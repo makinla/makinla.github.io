@@ -49,13 +49,6 @@ body {
   margin-top: 10px;
 }
 
-@media screen and (max-width: 825px) {
-  .mina_1 {
-    float: none;
-  }
-
-}
-
 .main {
   margin-left: 25%;
   margin-right: 25%;
@@ -76,6 +69,17 @@ body {
   padding-bottom: 120px;
 }
 
+@media screen and (max-width: 825px) {
+  .mina_1 {
+    float: none;
+    margin-top: 15px;
+  }
+  .main, .mainEsittely, .mainHarrastus {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+}
 div.navMobile {
   background-color: #4e825f;
   position: relative;
